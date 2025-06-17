@@ -13,6 +13,7 @@ import Contact from "./pages/Contact";
 import Amenities from "./pages/Amenities";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import About from "./pages/About";
 import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
 import ProtectedRoute from "./components/ProtectedRoute";
@@ -38,6 +39,7 @@ const App = () => (
               <Route path="/contact" element={<Contact />} />
               <Route path="/amenities" element={<Amenities />} />
               <Route path="/login" element={<Login />} />
+              <Route path="/about" element={<About />} />
               <Route path="/signup" element={<Signup />} />
               <Route path="/booking" element={
                 <ProtectedRoute>
